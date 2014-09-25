@@ -6,9 +6,9 @@ void setup()
 void draw()
 {
 	int sum=0;
-	for (int a=0;a<2501;a+=8)
+	for (int a=0;a<1024;a+=8)
 	{
-		for (int b=0;b<951;b+=8)
+		for (int b=0;b<4000;b+=8)
 		{
 			Die dice = new Die(a,b);
 			dice.roll();
