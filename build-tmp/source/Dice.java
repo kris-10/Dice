@@ -17,7 +17,7 @@ public class Dice extends PApplet {
 public void setup()
 {
 	noLoop();
-	size (2500,950);
+	size (1024,1000);
 	}
 public void draw()
 {
@@ -32,10 +32,10 @@ public void draw()
 			sum=sum+dice.num;
 		}
 	}
-	textSize(200);
+	textSize(150);
 	fill(0, 102, 153, 51);
-	textAlign(RIGHT,CENTER);
-	text(sum+" total", 1250, 475);
+	textAlign(CENTER,CENTER);
+	text(sum+" total", 500, 475);
 }
 public void mousePressed()
 {
